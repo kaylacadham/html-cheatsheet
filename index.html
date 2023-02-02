@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kayla's HTML & CSS Cheatsheet</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>HTML & CSS Cheatsheet</h1>
+            <h2>Here, have some HTML Basics:</h2>
+        </header>
+        <!--use HTML tables to display
+                the documentation and be sure to label your columns -->
+        <table>
+            <thead>
+                <th class="firstcol">Tag</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;!--Comment--&gt;</span></td>
+                    <td class="description">Comments are pieces of text not interpreted by the browser, used to provide additional information
+                        to aid in understanding the code, and they have no efffect on the layout or styling of a document.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;!--Comments look like this--&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;link&gt;</span></td>
+                    <td class="description">For linking in an html document, usually for stylesheets.
+                        Place in head section. Needs "rel" value (ie. stylesheet)
+                        and "href" value.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;link&gt; href="../resources/style.css" rel="stylesheet"&lt;/link&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;title&gt;</span></td>
+                    <td class="description">The title of your page, shows up in the browser tab. Place in head of document.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;title&gt;Kayla's HTML & CSS Cheatsheet&lt;/title&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;a&gt;</span></td>
+                    <td class="description">Creates a link to another page (href='url') or a location in the current page (href='#'). </td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;a href="www.codecademy.com"&gt;Visit This Site&lt;/a&gt;<br>
+                        &lt;a href="#contact"&gt;Contact Info&lt;/a&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;div&gt;</span></td>
+                    <td class="description">Represents a generic <em>division</em> of content. Used to distinguish its 
+                        contents from the rest of the document.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;h1&gt;-&lt;h6&gt;</span></td>
+                    <td class="description">Represents a text heading for a section of content, with h1 being the highest
+                        level and h6 being the lowest.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;meta&gt;</span></td>
+                    <td class="description">Represents an interface to provide metadata (data used to describe the document
+                        that contains it) pertaining to the document.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;span&gt;</span></td>
+                    <td class="description">Used for grouping related text or elements for styling or scripting.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;article&gt;</span></td>
+                    <td class="description">A part of a page which is self-contained and could make sense on its own elsewhere.
+                        Common uses: blog posts or magazine articles.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;aside&gt;</span></td>
+                    <td class="description">A part of a page which is relevant to the current content but not a direct part of
+                         it. Can be used for related links, clarifying a statement from the current article,
+                         of even advertising meant for the current page.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;section&gt;</span></td>
+                    <td class="description">Defines elements in a document like chapters, headings, or another area of 
+                        the document with the same theme.
+                    </td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;nav&gt;</span></td>
+                    <td class="description">Defines a block of navigation links such as menus or tables of contents.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;header&gt;</span></td>
+                    <td class="description">Introductory part of a page, which often includes a logo, heading tags,
+                        a search bar, and navigation elements.</td>
+                </tr>
+                <tr>
+                    <td class="example code">&lt;example code goes here&gt;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><span class="code">&lt;footer&gt;</span></td>
+                    <td class="description">The bottom part of the page, after a completed block of content. Commonly used
+                        for copyright information, or additional links to relevant pages.
+                    </td>
+                    <tr>
+                        <td class="example code">&lt;example code goes here&gt;</td>
+                    </tr>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Codecademy Challenge Project | Jan 18 2023 | Kayla Cadham</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!--<h2>CSS</h2>
+        <table>
+            <thead>
+                <th>Property</th>
+                <th>Description</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code"></span></td>
+                </tr>
+            </tbody>
+        </table>-->
+
+    </body>
+</html>

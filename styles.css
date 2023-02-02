@@ -1,0 +1,70 @@
+/*Use a custom color scheme with named colors*/
+
+/*Use custom styles for indicating what content represents code
+(use monospace etc)*/
+
+body{
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 25px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 0.08em;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.07em;
+}
+
+table {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: darkslategray;
+    height: 50px;
+}
+
+td {
+    padding: 20px 10px;
+    border: 1px solid darkslategrey;
+}
+
+tfoot td{
+    border: none;
+    text-align: left;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.code {
+    font-family:'Courier New', Courier, monospace;
+    background-color: midnightblue;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+.firstcol {
+    min-width: 225px;
+}
+
+.description {
+    border-bottom: none;
+}
+
+.example.code{
+    color: mediumslateblue;
+    background-color: black;
+    text-align: left;
+    padding: 0px 10px 30px 10px;
+    border-top: none;
+}
